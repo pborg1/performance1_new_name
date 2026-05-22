@@ -78,7 +78,7 @@ jobs:
           with:
             devops-integration-token: ${{ secrets.SN_DEVOPS_INTEGRATION_TOKEN }}
             # ServiceNow Instance URL
-            instance-url: https://emppbhawsar2.service-now.com/
+            instance-url: https://k8s0891315-node1.thunder.devsnc.com/
             context-github: '${{ toJSON(github) }}'
             # Orchestration Tool Id
             tool-id: ${{ secrets.TOOL_ID }}
